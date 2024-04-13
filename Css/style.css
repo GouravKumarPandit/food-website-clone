@@ -1,0 +1,74 @@
+*{
+    /* border: 1px solid black; */
+    overflow-x: hidden;
+} 
+.bg-color{
+    background: rgb(199, 39, 39);
+}
+.bgImg{
+    background-image: url('../Image/BackGround/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: scroll;
+}
+.anch{
+    color: maroon;
+    font-weight: bold;
+}
+.firstPageHeight{
+    height: 80vh;
+}
+.countingHieght{
+    height: 80px;
+}
+.countingHieght P{
+    font-weight: bold;
+    font-size: 18px;
+}
+.countingHieght P span{
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.buttonDown{
+    width: 150px;
+}
+.jumbo{
+    background-image: url('../Image/BackGround/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.jumboHeight{
+    border: 1px solid black;
+    height: 70vh;
+}
+.jumboBanerr{
+    height: 15vh;
+    background-image: url('../Image/BackGround/bg-3.jpg');
+    background-position: center;
+}
+.button{
+    background-color: rgb(201, 34, 34);
+    padding: 0 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 700px){
+    .jumboHeight{
+        border: 1px solid black;
+        height: auto;
+    }
+}
+@media (max-width: 350px){
+    .jumboBanerr{
+        height: 20vh;
+    }
+}
+
+
